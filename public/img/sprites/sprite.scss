@@ -1,0 +1,305 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$arrow-right-rooms-name: 'arrow-right-rooms';
+$arrow-right-rooms-x: 149px;
+$arrow-right-rooms-y: 75px;
+$arrow-right-rooms-offset-x: -149px;
+$arrow-right-rooms-offset-y: -75px;
+$arrow-right-rooms-width: 8px;
+$arrow-right-rooms-height: 18px;
+$arrow-right-rooms-total-width: 198px;
+$arrow-right-rooms-total-height: 145px;
+$arrow-right-rooms-image: 'sprite.png';
+$arrow-right-rooms: (149px, 75px, -149px, -75px, 8px, 18px, 198px, 145px, 'sprite.png', 'arrow-right-rooms', );
+$arrow-right-services-name: 'arrow-right-services';
+$arrow-right-services-x: 141px;
+$arrow-right-services-y: 75px;
+$arrow-right-services-offset-x: -141px;
+$arrow-right-services-offset-y: -75px;
+$arrow-right-services-width: 8px;
+$arrow-right-services-height: 18px;
+$arrow-right-services-total-width: 198px;
+$arrow-right-services-total-height: 145px;
+$arrow-right-services-image: 'sprite.png';
+$arrow-right-services: (141px, 75px, -141px, -75px, 8px, 18px, 198px, 145px, 'sprite.png', 'arrow-right-services', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 157px;
+$arrow-right-y: 75px;
+$arrow-right-offset-x: -157px;
+$arrow-right-offset-y: -75px;
+$arrow-right-width: 7px;
+$arrow-right-height: 13px;
+$arrow-right-total-width: 198px;
+$arrow-right-total-height: 145px;
+$arrow-right-image: 'sprite.png';
+$arrow-right: (157px, 75px, -157px, -75px, 7px, 13px, 198px, 145px, 'sprite.png', 'arrow-right', );
+$bg-logo-title-left-name: 'bg-logo-title-left';
+$bg-logo-title-left-x: 0px;
+$bg-logo-title-left-y: 0px;
+$bg-logo-title-left-offset-x: 0px;
+$bg-logo-title-left-offset-y: 0px;
+$bg-logo-title-left-width: 198px;
+$bg-logo-title-left-height: 20px;
+$bg-logo-title-left-total-width: 198px;
+$bg-logo-title-left-total-height: 145px;
+$bg-logo-title-left-image: 'sprite.png';
+$bg-logo-title-left: (0px, 0px, 0px, 0px, 198px, 20px, 198px, 145px, 'sprite.png', 'bg-logo-title-left', );
+$bg-logo-title-right-name: 'bg-logo-title-right';
+$bg-logo-title-right-x: 0px;
+$bg-logo-title-right-y: 20px;
+$bg-logo-title-right-offset-x: 0px;
+$bg-logo-title-right-offset-y: -20px;
+$bg-logo-title-right-width: 198px;
+$bg-logo-title-right-height: 20px;
+$bg-logo-title-right-total-width: 198px;
+$bg-logo-title-right-total-height: 145px;
+$bg-logo-title-right-image: 'sprite.png';
+$bg-logo-title-right: (0px, 20px, 0px, -20px, 198px, 20px, 198px, 145px, 'sprite.png', 'bg-logo-title-right', );
+$booking-name: 'booking';
+$booking-x: 0px;
+$booking-y: 40px;
+$booking-offset-x: 0px;
+$booking-offset-y: -40px;
+$booking-width: 32px;
+$booking-height: 35px;
+$booking-total-width: 198px;
+$booking-total-height: 145px;
+$booking-image: 'sprite.png';
+$booking: (0px, 40px, 0px, -40px, 32px, 35px, 198px, 145px, 'sprite.png', 'booking', );
+$bx-next-name: 'bx-next';
+$bx-next-x: 18px;
+$bx-next-y: 110px;
+$bx-next-offset-x: -18px;
+$bx-next-offset-y: -110px;
+$bx-next-width: 16px;
+$bx-next-height: 35px;
+$bx-next-total-width: 198px;
+$bx-next-total-height: 145px;
+$bx-next-image: 'sprite.png';
+$bx-next: (18px, 110px, -18px, -110px, 16px, 35px, 198px, 145px, 'sprite.png', 'bx-next', );
+$bx-prev-name: 'bx-prev';
+$bx-prev-x: 0px;
+$bx-prev-y: 110px;
+$bx-prev-offset-x: 0px;
+$bx-prev-offset-y: -110px;
+$bx-prev-width: 18px;
+$bx-prev-height: 35px;
+$bx-prev-total-width: 198px;
+$bx-prev-total-height: 145px;
+$bx-prev-image: 'sprite.png';
+$bx-prev: (0px, 110px, 0px, -110px, 18px, 35px, 198px, 145px, 'sprite.png', 'bx-prev', );
+$calendar-name: 'calendar';
+$calendar-x: 154px;
+$calendar-y: 40px;
+$calendar-offset-x: -154px;
+$calendar-offset-y: -40px;
+$calendar-width: 21px;
+$calendar-height: 21px;
+$calendar-total-width: 198px;
+$calendar-total-height: 145px;
+$calendar-image: 'sprite.png';
+$calendar: (154px, 40px, -154px, -40px, 21px, 21px, 198px, 145px, 'sprite.png', 'calendar', );
+$flower-left-name: 'flower-left';
+$flower-left-x: 102px;
+$flower-left-y: 75px;
+$flower-left-offset-x: -102px;
+$flower-left-offset-y: -75px;
+$flower-left-width: 20px;
+$flower-left-height: 20px;
+$flower-left-total-width: 198px;
+$flower-left-total-height: 145px;
+$flower-left-image: 'sprite.png';
+$flower-left: (102px, 75px, -102px, -75px, 20px, 20px, 198px, 145px, 'sprite.png', 'flower-left', );
+$flower-right-dark-name: 'flower-right-dark';
+$flower-right-dark-x: 122px;
+$flower-right-dark-y: 75px;
+$flower-right-dark-offset-x: -122px;
+$flower-right-dark-offset-y: -75px;
+$flower-right-dark-width: 19px;
+$flower-right-dark-height: 19px;
+$flower-right-dark-total-width: 198px;
+$flower-right-dark-total-height: 145px;
+$flower-right-dark-image: 'sprite.png';
+$flower-right-dark: (122px, 75px, -122px, -75px, 19px, 19px, 198px, 145px, 'sprite.png', 'flower-right-dark', );
+$flower-right-name: 'flower-right';
+$flower-right-x: 175px;
+$flower-right-y: 40px;
+$flower-right-offset-x: -175px;
+$flower-right-offset-y: -40px;
+$flower-right-width: 20px;
+$flower-right-height: 20px;
+$flower-right-total-width: 198px;
+$flower-right-total-height: 145px;
+$flower-right-image: 'sprite.png';
+$flower-right: (175px, 40px, -175px, -40px, 20px, 20px, 198px, 145px, 'sprite.png', 'flower-right', );
+$letter-contact-name: 'letter-contact';
+$letter-contact-x: 125px;
+$letter-contact-y: 40px;
+$letter-contact-offset-x: -125px;
+$letter-contact-offset-y: -40px;
+$letter-contact-width: 29px;
+$letter-contact-height: 22px;
+$letter-contact-total-width: 198px;
+$letter-contact-total-height: 145px;
+$letter-contact-image: 'sprite.png';
+$letter-contact: (125px, 40px, -125px, -40px, 29px, 22px, 198px, 145px, 'sprite.png', 'letter-contact', );
+$letter-name: 'letter';
+$letter-x: 93px;
+$letter-y: 40px;
+$letter-offset-x: -93px;
+$letter-offset-y: -40px;
+$letter-width: 32px;
+$letter-height: 24px;
+$letter-total-width: 198px;
+$letter-total-height: 145px;
+$letter-image: 'sprite.png';
+$letter: (93px, 40px, -93px, -40px, 32px, 24px, 198px, 145px, 'sprite.png', 'letter', );
+$location-contact-name: 'location-contact';
+$location-contact-x: 32px;
+$location-contact-y: 40px;
+$location-contact-offset-x: -32px;
+$location-contact-offset-y: -40px;
+$location-contact-width: 32px;
+$location-contact-height: 32px;
+$location-contact-total-width: 198px;
+$location-contact-total-height: 145px;
+$location-contact-image: 'sprite.png';
+$location-contact: (32px, 40px, -32px, -40px, 32px, 32px, 198px, 145px, 'sprite.png', 'location-contact', );
+$map-label-contact-name: 'map-label-contact';
+$map-label-contact-x: 54px;
+$map-label-contact-y: 75px;
+$map-label-contact-offset-x: -54px;
+$map-label-contact-offset-y: -75px;
+$map-label-contact-width: 24px;
+$map-label-contact-height: 32px;
+$map-label-contact-total-width: 198px;
+$map-label-contact-total-height: 145px;
+$map-label-contact-image: 'sprite.png';
+$map-label-contact: (54px, 75px, -54px, -75px, 24px, 32px, 198px, 145px, 'sprite.png', 'map-label-contact', );
+$map-label-name: 'map-label';
+$map-label-x: 28px;
+$map-label-y: 75px;
+$map-label-offset-x: -28px;
+$map-label-offset-y: -75px;
+$map-label-width: 26px;
+$map-label-height: 34px;
+$map-label-total-width: 198px;
+$map-label-total-height: 145px;
+$map-label-image: 'sprite.png';
+$map-label: (28px, 75px, -28px, -75px, 26px, 34px, 198px, 145px, 'sprite.png', 'map-label', );
+$phone-contact-name: 'phone-contact';
+$phone-contact-x: 64px;
+$phone-contact-y: 40px;
+$phone-contact-offset-x: -64px;
+$phone-contact-offset-y: -40px;
+$phone-contact-width: 29px;
+$phone-contact-height: 31px;
+$phone-contact-total-width: 198px;
+$phone-contact-total-height: 145px;
+$phone-contact-image: 'sprite.png';
+$phone-contact: (64px, 40px, -64px, -40px, 29px, 31px, 198px, 145px, 'sprite.png', 'phone-contact', );
+$phone-name: 'phone';
+$phone-x: 0px;
+$phone-y: 75px;
+$phone-offset-x: 0px;
+$phone-offset-y: -75px;
+$phone-width: 28px;
+$phone-height: 35px;
+$phone-total-width: 198px;
+$phone-total-height: 145px;
+$phone-image: 'sprite.png';
+$phone: (0px, 75px, 0px, -75px, 28px, 35px, 198px, 145px, 'sprite.png', 'phone', );
+$photo-name: 'photo';
+$photo-x: 78px;
+$photo-y: 75px;
+$photo-offset-x: -78px;
+$photo-offset-y: -75px;
+$photo-width: 24px;
+$photo-height: 30px;
+$photo-total-width: 198px;
+$photo-total-height: 145px;
+$photo-image: 'sprite.png';
+$photo: (78px, 75px, -78px, -75px, 24px, 30px, 198px, 145px, 'sprite.png', 'photo', );
+$spritesheet-width: 198px;
+$spritesheet-height: 145px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($arrow-right-rooms, $arrow-right-services, $arrow-right, $bg-logo-title-left, $bg-logo-title-right, $booking, $bx-next, $bx-prev, $calendar, $flower-left, $flower-right-dark, $flower-right, $letter-contact, $letter, $location-contact, $map-label-contact, $map-label, $phone-contact, $phone, $photo, );
+$spritesheet: (198px, 145px, 'sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
